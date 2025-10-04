@@ -1,10 +1,10 @@
----
 
- Dr. Seth Garrett Hastings  
+
+Dr. Seth Garrett Hastings  
 918.926.9392 sethhastings@gmail.com  
 1323 E 21st ST 221, Tulsa, OK 74114
 
----
+
 
 **OBJECTIVE:** Data Science, Research and Development, Business Analysis, Project Management, AI/ML
 
