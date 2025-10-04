@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Dr. Seth Garrett Hastings</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eee;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .breadcrumb {
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .intro {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .projects-grid {
+            display: grid;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .project {
+            padding: 25px;
+            border: 1px solid #e8e8e8;
+            border-radius: 8px;
+            background-color: #fafafa;
+        }
+
+        .project h2 {
+            color: #2c3e50;
+            margin-bottom: 12px;
+            font-size: 1.4rem;
+        }
+
+        .project-meta {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        .project p {
+            color: #555;
+            margin-bottom: 15px;
+            line-height: 1.7;
+        }
+
+        .project-tags {
+            margin-bottom: 15px;
+        }
+
+        .tag {
+            background-color: #3498db;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-right: 8px;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+
+        .private-label {
+            background-color: #e74c3c;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-left: 10px;
+        }
+
+        .project a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        .coming-soon {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .coming-soon h3 {
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+
+        .coming-soon p {
+            color: #95a5a6;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">← Back to Home</a>
+    </div>
+
+    <header>
+        <h1>Selected Projects</h1>
+        <p class="intro">A collection of my past and present projects spanning cybersecurity, business, automotive, and engineering.</p>
+    </header>
+
+    <div class="projects-grid">
+        <div class="project">
+            <h2>Agentic AI POC Application <span class="private-label">Confidential</span></h2>
+            <div class="project-meta">Deft LLC Consultant Work • 2025</div>
+            <p>Proof of concept application featuring custom multi-agent workflows with advanced AI capabilities. Implemented guardrails, learning systems, and comprehensive auditing mechanisms using modern AI frameworks.</p>
+            <div class="project-tags">
+                <span class="tag">LangChain</span>
+                <span class="tag">Multi-Agent Systems</span>
+                <span class="tag">AI Guardrails</span>
+                <span class="tag">Machine Learning</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>Appraisal Support Platform <span class="private-label">Confidential</span></h2>
+            <div class="project-meta">Deft LLC Consultant Work • 2025</div>
+            <p>POC application with order processing, route planning, and quality of life features for a regional appraisal company. Streamlines workflow and improves operational efficiency for field appraisers.</p>
+            <div class="project-tags">
+                <span class="tag">Order Processing</span>
+                <span class="tag">Route Planning</span>
+                <span class="tag">Workflow Automation</span>
+                <span class="tag">Business Solutions</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2> Security Operations Center (SOC) Dashboard <span class="private-label">Patent Pending</span></h2>
+            <div class="project-meta">University of Tulsa • 2024-2025</div>
+            <p>Developed a novel security dashboard for enhanced SOC investigations, transforming raw authentication logs into interpretable events and correlating them with live alerts and baselines for improved threat detection. This system is currently in the patent process and represents a significant advancement in log analytics for cybersecurity operations.</p>
+            <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Log Analytics</span>
+                <span class="tag">Cybersecurity</span>
+                <span class="tag">Data Processing</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>Indie TCG Game <span class="private-label">Confidential</span></h2>
+            <div class="project-meta">Deft LLC Partner Project • 2024-Current</div>
+            <p>Fullstack development of an independent trading card game with Steam integration. Includes networking infrastructure, user interface design, and complex game logic implementation.</p>
+            <div class="project-tags">
+                <span class="tag">Fullstack Development</span>
+                <span class="tag">Steam Integration</span>
+                <span class="tag">Networking</span>
+                <span class="tag">Game Development</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>Media Directory Project <span class="private-label">Confidential</span></h2>
+            <div class="project-meta">Deft LLC Partner Project • 2023-Current</div>
+            <p>Online directory with social components developed collaboratively using modern cloud technologies. Features user-generated content, social networking capabilities, and scalable cloud infrastructure.</p>
+            <div class="project-tags">
+                <span class="tag">Vue.js</span>
+                <span class="tag">AWS</span>
+                <span class="tag">Cloud Technologies</span>
+                <span class="tag">Social Platform</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>Azure DevOps CI/CD Pipeline <span class="private-label">Private</span></h2>
+            <div class="project-meta">MSCI Inc Internship • Summer 2022</div>
+            <p>Designed and implemented continuous integration and deployment pipelines for enterprise-scale financial technology systems.</p>
+            <div class="project-tags">
+                <span class="tag">Azure DevOps</span>
+                <span class="tag">CI/CD</span>
+                <span class="tag">Cloud Infrastructure</span>
+                <span class="tag">Automation</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>Blackout Screens Hotkey <span class="private-label">Public</span></h2>
+            <div class="project-meta">Personal Project • 2022</div>
+            <p>Simple utility for personal use that provides quick screen blackout functionality through hotkey shortcuts. Implemented using basic bash scripting and AutoHotkey for Windows automation.</p>
+            <div class="project-tags">
+                <span class="tag">Bash Scripting</span>
+                <span class="tag">AutoHotkey</span>
+                <span class="tag">Windows Automation</span>
+                <span class="tag">Utility Software</span>
+                <a href="https://github.com/CyberGarrett/Monitor-Blackout-Hotkey">Code</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>Cybersecurity Policy & NIST Framework Implementation <span class="private-label">Private</span></h2>
+            <div class="project-meta">MSCI Inc Internship • Summer 2021</div>
+            <p>Facilitated comprehensive control mapping and implementation of NIST cybersecurity framework at a leading financial technology company. Developed business controls and governance processes for enterprise operations.</p>
+            <div class="project-tags">
+                <span class="tag">NIST Framework</span>
+                <span class="tag">Compliance</span>
+                <span class="tag">Policy Development</span>
+                <span class="tag">Risk Management</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>Ennovations Controls Inspection Cabinet <span class="private-label">Private</span></h2>
+            <div class="project-meta">John Brown University - Team Lead • 2020</div>
+            <p>Tabletop inspection platform for digital displays used in factory inspection processes. Led engineering development of embedded systems with Python programming for industrial quality control applications.</p>
+            <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Embedded Programming</span>
+                <span class="tag">Industrial Controls</span>
+                <span class="tag">Quality Control</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>DOS to Windows Software Port <span class="private-label">Private</span></h2>
+            <div class="project-meta">Protomotive Inc Internship• Summer 2019</div>
+            <p>Successfully modernized legacy DOS BASIC automotive software to Windows C++ platform. Project included custom knock sensor development, generator repair systems, and integration with 3D scanning technology for automotive applications.</p>
+            <div class="project-tags">
+                <span class="tag">C++</span>
+                <span class="tag">Legacy Systems</span>
+                <span class="tag">Hardware Integration</span>
+                <span class="tag">Automotive</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>Custom Knock Sensor Development <span class="private-label">Private</span></h2>
+            <div class="project-meta">Protomotive Inc Internship• Summer 2019</div>
+            <p>Developed a custom knock sensor for automotive applications, enhancing engine performance and diagnostics for real-time monitoring on the dyno</p>
+            <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Embedded Systems</span>
+                <span class="tag">Hardware Prototypes</span>
+                <span class="tag">Automotive</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="coming-soon">
+        <h3>More Project Details Coming Soon</h3>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/seth-hastings/">LinkedIn</a>
+        </div>
+        <p>&copy; 2025 Seth Garrett Hastings. All rights reserved.</p>
+    </div>
+</body>
+</html>
